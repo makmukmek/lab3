@@ -10,10 +10,10 @@ class Artwork:
     id: Optional[int]
     title: str
     artist: str
-    year: int
-    style: str
-    price: float
-    created_at: str
+    # year: int
+    # style: str
+    # price: float
+    # created_at: str
     
     def validate(self):
         if not self.title.strip():
